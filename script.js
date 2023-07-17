@@ -79,7 +79,7 @@ gsap.from(".card",{
         start:"top 70%",
         end: "top 60%",
     }
-});
+})
 
 gsap.from(".colon1",{
     y:-70,
