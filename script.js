@@ -70,7 +70,7 @@ gsap.from("#about-us img , #about-us-in",{
 gsap.from(".card",{
     scale:0.8,  //scaling effect
     opacity:0,
-    // stagger:0.1, //one after another effect.
+    stagger:0.1, //one after another effect.
     duration:0.5,
     scrollTrigger:{
         trigger:".card",
